@@ -70,7 +70,7 @@ def handle_message(event):
     elif'大麥克' in msg:
         client = myfitnesspal.Client()
         food_items = client.get_food_search_results("麥當勞 大麥克")
-        message = TextSendMessage(text=food_items[0])
+        message = TextSendMessage(text=food_items)
         line_bot_api.reply_message(event.reply_token, message)
     else:
         message = TextSendMessage(text=msg)
