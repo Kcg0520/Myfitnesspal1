@@ -11,7 +11,7 @@ food_items
 # <Bacon Cheeseburger - Plain -- Homemade>,
 # <Jr. Bacon Cheeseburger -- Wendys>,
 # ...
-
+print(food_items[0])
 print("{} ({}), {}, cals={}, mfp_id={}".format(
     food_items[0].name,
     food_items[0].brand,
