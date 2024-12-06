@@ -3,7 +3,7 @@ import myfitnesspal
 client = myfitnesspal.Client()
 
 food_items = client.get_food_search_results("麥當勞 大麥克")
-print(food_items)
+food_items
 # >> [<Bacon Cheeseburger -- Sodexo Campus>,
 # <Junior Bacon Cheeseburger -- Wendy's>,
 # <Bacon Cheeseburger -- Continental Café>,
